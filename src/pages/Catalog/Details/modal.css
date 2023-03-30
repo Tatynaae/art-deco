@@ -1,0 +1,358 @@
+ul li {
+    list-style: none;
+}
+
+.btnModal{
+    background: #FECC51;
+}
+.modal{
+    position: relative;
+    width: 500px;
+}
+.modal_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(81, 81, 81, 0.78);
+    padding-bottom: 5px ;
+}
+.modal_block h1 {
+    font-size: 24px;
+    font-weight: 450;
+}
+.modal_block_btn{
+    background: transparent;
+    border: none;
+    font-size: 45px;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+.ReactModal__Content{
+    margin-top: 30px!important;
+    background: #2B2D36!important;
+    border: none!important;
+    z-index: 1003;
+}
+ /*   #3B3B42   */
+
+.ReactModal__Overlay{
+    background-color: rgba(12, 12, 15, 0.94) !important;
+    z-index: 1002;
+}
+/*spanBlock*/
+.spans{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid rgba(81, 81, 81, 0.78);
+}
+.ul{
+    position: relative;
+    width: 100%;
+}
+.ul2{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow-x: scroll;
+}
+
+.spans h1{
+    font-size: 14px;
+    font-weight: 250;
+}
+
+.span_block{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.span span {
+    color: black ;
+    font-weight: 400;
+    font-size: 13px;
+}
+.span {
+    display: flex;
+    justify-content: space-between;
+    width:30%;
+    color: black ;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 2% ;
+    border-radius: 12px;
+    background: white;
+    margin-top: 1%;
+}
+.span_block_btn{
+    background: transparent;
+    border: none;
+    font-size: 35px;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+
+/*input*/
+
+.block_input{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4%;
+}
+.input{
+    width:32%;
+    color: black ;
+    padding: 2% 6%;
+    border-radius:12px;
+    outline: none;
+}
+.block_input_btn{
+    width: 100%;
+    background: #3B3B42;
+    color: white;
+    font-size: 15px;
+    border-radius: 12px;
+    border: none ;
+    margin-top: 15px ;
+    margin-bottom: 5px ;
+    padding: 15px 0;
+    font-weight: 200;
+    box-shadow:0 5px 5px #000000;
+}
+.send_btn{
+    width: 100%;
+    background: #FECC51;
+    color: black;
+    font-size: 15px;
+    border-radius: 12px;
+    border: none ;
+    margin: 5px 0;
+    padding: 15px 0;
+    font-weight: 500;
+    box-shadow:0 7px 7px #000000;
+}
+.send_btn2{
+    width: 100%;
+    background: rgb(54, 54, 54);
+    font-size: 15px;
+    opacity: 0.3;
+    border-radius: 12px;
+    border: none ;
+    margin: 5px 0;
+    padding: 15px 0;
+    color: white;
+    font-weight: 500;
+    box-shadow:0 7px 7px #000000;
+}
+
+.btnModal:hover{
+    box-shadow:5px 7px 10px #484848;
+}
+.btnModal{
+    background: #FECC51;
+    color: black;
+    transition: .4s;
+    font-size: 16px;
+    border-radius: 12px;
+    border: none ;
+    padding: 10px 50px;
+    font-weight: 500;
+    box-shadow:0 7px 7px #000000;
+}
+
+
+/*error*/
+.error{
+    font-size: 14px;
+    color: #ff0000;
+    font-weight: 300;
+    position: absolute;
+    margin-left: 10px;
+}
+
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient( rgba(254, 204, 81, 0.56), rgba(0, 0, 0, 0.62));
+}
+
+/*modalcalculate*/
+.modal_calculate {
+    position: relative;
+    width: 100%;
+}
+.modal_calculate_block {
+    position: relative;
+    width: 100%
+}
+.modal_calculate_block2 {
+    position: relative;
+    width: 100%;
+    height: 28vh ;
+    overflow-y: scroll;
+}
+.modal_calculate p{
+    font-family: 'Manrope',sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.modal_calculate hr{
+    margin-top: 3%;
+    border-width: 0.3px!important;
+}
+.calculate_block{
+    position: relative;
+    width: 100%;
+    background: #3B3C43;
+    border-radius: 8px;
+    margin: 2% 0;
+    padding: 2%;
+}
+.calculate{
+    display: flex;
+    justify-content: space-between;
+}
+.calculate_left p{
+    font-family: 'Manrope',sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    opacity: 0.86;
+}
+.calculate_left button{
+    font-family: 'Manrope',sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    opacity: 0.86;
+    background: transparent;
+    border: none;
+}
+.calculate_right{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+.calculate_right p{
+    font-family: 'Manrope',sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: #EFEFEF;
+    opacity: 0.66;
+}
+.detail h1{
+    font-weight: 400;
+    font-size: 16px;
+    color: #EFEFEF;
+    opacity: 0.66;
+    margin: 1% 0;
+}
+.detail{
+    margin-top: 1%;
+    border-top: 0.2px solid;
+    display: flex;
+    justify-content: space-between;
+}
+.calculate_detail_true{
+    position: relative;
+    height: 0;
+    opacity: 0;
+}
+.calculate_detail_false{
+    height: 10vh;
+    position: relative;
+    overflow-y:scroll ;
+}
+
+
+@media screen and (max-width: 576px){
+    .input{
+        width: 33%!important;
+        padding: 2%!important;
+    }
+}
+@media screen and (max-width: 425px){
+    .ReactModal__Content{
+        margin-top: 20px!important;
+    }
+    .modal{
+        width: 400px;
+    }
+    .span_block{
+        flex-direction: column;
+        align-items: start;
+    }
+    .span {
+        width: 90%;
+    }
+    .span_block_btn{
+        position: absolute;
+        top: 37%;
+        right: 5px;
+    }
+    .input{
+        width: 33%!important;
+        padding: 2%!important;
+    }
+}
+@media screen and (max-width: 375px){
+    .modal{
+          width: 340px;
+    }
+    .modal_block h1{
+        font-size: 20px;
+    }
+    .block_input_btn , .btnModal , .send_btn , .send_btn2{
+        font-size: 14px;
+    }
+    .calculate{
+        flex-direction: column;
+    }
+    .calculate_right{
+        margin: 1% 0;
+        align-items: start;
+    }
+    .detail{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .modal{
+          width: 300px;
+    }
+    .modal_block h1{
+        font-size: 20px;
+    }
+    .block_input_btn , .btnModal , .send_btn , .send_btn2{
+        font-size: 14px;
+    }
+    .spans{
+        padding:10px 0;
+    }
+}
+button:hover{
+    cursor: pointer;
+}
+
