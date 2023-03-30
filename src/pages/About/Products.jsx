@@ -1,7 +1,5 @@
 import {Container, useMediaQuery} from "@mui/material";
-// import { Box } from "@mui/system";
 import React, {useEffect, useState} from "react";
-// import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import SwiperCore, { Autoplay, Navigation, Pagination } from "swiper";
@@ -49,100 +47,6 @@ const Products = () => {
           Мы представляем Вашему вниманию современные – фасадные архитектурные
           элементы{" "}
         </MTypography>
-        {/*<Box*/}
-        {/*  display="flex"*/}
-        {/*  columnGap={{ xs: "10px", lg: "30px" }}*/}
-        {/*  rowGap={{ xs: "10px", lg: "20px" }}*/}
-        {/*  mt={{ xs: 3, lg: 6 }}*/}
-        {/*  flexWrap="wrap"*/}
-        {/*  justifyContent="center"*/}
-        {/*>*/}
-        {/*  {categorys.map((item) => (*/}
-        {/*    <Chip*/}
-        {/*      size="large"*/}
-        {/*      label={item.title}*/}
-        {/*      onClick={() => getFilter(item.title)}*/}
-        {/*      sx={{*/}
-        {/*        p: { md: "15px", lg: "24px" },*/}
-        {/*        borderRadius: "76px",*/}
-        {/*        "& span": { color: item.title=== type ? "#000!important" : "#fff" },*/}
-        {/*        backgroundColor: item.title === type ? "#FFD15B" : "#383A44",*/}
-        {/*        "&:hover": {*/}
-        {/*          background: "#535564",*/}
-        {/*        },*/}
-        {/*      }}*/}
-        {/*    />*/}
-        {/*  ))}*/}
-        {/*</Box>*/}
-        {/*<Box display="flex" mt={5} mb={4} justifyContent="space-between">*/}
-        {/*  <Typography variant="subtitle2">*/}
-        {/*    <span className="primary">{type}</span> : {filter.length} вида продукции*/}
-        {/*  </Typography>*/}
-        {/*  <Link to="/catalog" className="link primary">*/}
-        {/*    Перейти к продукции*/}
-        {/*  </Link>*/}
-        {/*</Box>*/}
-        {/*<Box position="relative">*/}
-        {/*  <Swiper*/}
-        {/*    navigation={true}*/}
-        {/*    pagination={{*/}
-        {/*      clickable: true,*/}
-        {/*    }}*/}
-        {/*    className={classes.swiper}*/}
-        {/*    autoplay={{*/}
-        {/*      delay: 3000,*/}
-        {/*      pauseOnMouseEnter: true,*/}
-        {/*      disableOnInteraction: false,*/}
-        {/*    }}*/}
-        {/*    breakpoints={{*/}
-        {/*      0: {*/}
-        {/*        slidesPerView: 1,*/}
-        {/*        slidesPerGroup: 1,*/}
-        {/*        spaceBetween: 16,*/}
-        {/*      },*/}
-
-        {/*      768: {*/}
-        {/*        slidesPerView: 3,*/}
-        {/*        slidesPerGroup: 3,*/}
-        {/*        spaceBetween: 12,*/}
-        {/*      },*/}
-
-        {/*      992: {*/}
-        {/*        slidesPerView: 4,*/}
-        {/*        slidesPerGroup: 4,*/}
-        {/*        spaceBetween: 30,*/}
-        {/*      },*/}
-
-        {/*      1200: {*/}
-        {/*        slidesPerView: 4,*/}
-        {/*        slidesPerGroup: 4,*/}
-        {/*        spaceBetween: 30,*/}
-        {/*      },*/}
-        {/*    }}*/}
-        {/*  >*/}
-        {/*    {filter.map((item,index)=>(*/}
-        {/*        <SwiperSlide>*/}
-        {/*          <Link key={index} to={`/catalog/details/${item.title}`} style={{ display: "block" }}>*/}
-        {/*            <img*/}
-        {/*                src={item.image}*/}
-        {/*                style={{*/}
-        {/*                  width: "100%",*/}
-        {/*                  maxWidth: "270px",*/}
-        {/*                  display: "table",*/}
-        {/*                  margin: "0 auto",*/}
-        {/*                  height: lg ? 135 : "270px",*/}
-        {/*                  objectFit : "cover"*/}
-        {/*                }}*/}
-        {/*                alt=""*/}
-        {/*            />*/}
-        {/*            <Typography variant="subtitle2" mt={1} textAlign="center">*/}
-        {/*              {item.title}*/}
-        {/*            </Typography>*/}
-        {/*          </Link>*/}
-        {/*        </SwiperSlide>*/}
-        {/*    ))}*/}
-        {/*  </Swiper>*/}
-        {/*</Box>*/}
       </Container>
     </section>
   );
